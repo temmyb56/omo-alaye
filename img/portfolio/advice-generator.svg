@@ -1,0 +1,47 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="adviceBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4facfe;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00f2fe;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f8f9fa;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="url(#adviceBg)"/>
+  
+  <!-- Main Card -->
+  <rect x="40" y="40" width="320" height="220" rx="20" fill="url(#cardBg)" stroke="#e0e0e0" stroke-width="1"/>
+  
+  <!-- Header -->
+  <text x="200" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#333">💡 Advice Generator</text>
+  <text x="200" y="90" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#666">Get random life advice instantly</text>
+  
+  <!-- Advice Card -->
+  <rect x="60" y="110" width="280" height="80" rx="12" fill="#f8f9fa" stroke="#dee2e6" stroke-width="1"/>
+  
+  <!-- Advice Number -->
+  <text x="200" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#6c757d">ADVICE #117</text>
+  
+  <!-- Advice Text -->
+  <text x="200" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="500" fill="#333">"It is easy to sit up and take notice,</text>
+  <text x="200" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="500" fill="#333">what's difficult is getting up</text>
+  <text x="200" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="500" fill="#333">and taking action."</text>
+  
+  <!-- Decorative Lines -->
+  <line x1="80" y1="200" x2="140" y2="200" stroke="#dee2e6" stroke-width="1"/>
+  <circle cx="200" cy="200" r="3" fill="#4facfe"/>
+  <line x1="260" y1="200" x2="320" y2="200" stroke="#dee2e6" stroke-width="1"/>
+  
+  <!-- Generate Button -->
+  <rect x="170" y="215" width="60" height="30" rx="15" fill="url(#adviceBg)"/>
+  <text x="200" y="233" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white">Generate</text>
+  
+  <!-- Dice Icon -->
+  <rect x="195" y="220" width="10" height="10" rx="2" fill="white" opacity="0.8"/>
+  <circle cx="198" cy="223" r="0.8" fill="#4facfe"/>
+  <circle cx="202" cy="227" r="0.8" fill="#4facfe"/>
+</svg>

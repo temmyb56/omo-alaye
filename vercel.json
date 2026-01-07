@@ -1,0 +1,17 @@
+{
+  "functions": {
+    "app.py": {
+      "runtime": "python3.9"
+    }
+  },
+  "routes": [
+    {
+      "src": "/send_email",
+      "dest": "/app.py"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/$1"
+    }
+  ]
+}

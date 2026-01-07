@@ -1,0 +1,50 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="cardGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f8f9fa;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="url(#bgGradient)"/>
+  
+  <!-- Main Card -->
+  <rect x="30" y="30" width="340" height="240" rx="15" fill="url(#cardGradient)" stroke="#e0e0e0" stroke-width="1"/>
+  
+  <!-- Header -->
+  <text x="200" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#333">🌍 IP Tracker</text>
+  <text x="200" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#666">Track IP addresses worldwide</text>
+  
+  <!-- Search Box -->
+  <rect x="50" y="95" width="240" height="30" rx="5" fill="#ffffff" stroke="#e0e0e0" stroke-width="1"/>
+  <text x="55" y="113" font-family="Arial, sans-serif" font-size="11" fill="#999">192.168.1.1</text>
+  
+  <!-- Search Button -->
+  <rect x="300" y="95" width="60" height="30" rx="5" fill="url(#bgGradient)"/>
+  <text x="330" y="113" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white">Track</text>
+  
+  <!-- Results Section -->
+  <rect x="50" y="140" width="300" height="80" rx="8" fill="#f8f9fa" stroke="#e0e0e0" stroke-width="1"/>
+  
+  <!-- Result Items -->
+  <text x="60" y="158" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#333">IP Address:</text>
+  <text x="280" y="158" text-anchor="end" font-family="Arial, sans-serif" font-size="10" fill="#667eea">192.168.1.1</text>
+  
+  <text x="60" y="175" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#333">Location:</text>
+  <text x="280" y="175" text-anchor="end" font-family="Arial, sans-serif" font-size="10" fill="#667eea">Lagos, Nigeria</text>
+  
+  <text x="60" y="192" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#333">ISP:</text>
+  <text x="280" y="192" text-anchor="end" font-family="Arial, sans-serif" font-size="10" fill="#667eea">MTN Nigeria</text>
+  
+  <text x="60" y="209" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#333">Timezone:</text>
+  <text x="280" y="209" text-anchor="end" font-family="Arial, sans-serif" font-size="10" fill="#667eea">UTC+1</text>
+  
+  <!-- Map Placeholder -->
+  <rect x="50" y="230" width="300" height="30" rx="5" fill="#e9ecef" stroke="#dee2e6" stroke-width="1"/>
+  <text x="200" y="248" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#6c757d">📍 Interactive Map View</text>
+</svg>
